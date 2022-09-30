@@ -30,14 +30,14 @@ class SideBar extends React.Component<SideBarProps, SideBarState> {
             </span>
           </span>
         </button>
-        <div className="relative w-full flex flex-col items-center pt-10 gap-4">
+        <div className="relative w-full flex flex-col items-center pt-10 text-black gap-4">
           <a
             onClick={this.props.home}
             target="_blank"
             className="flex items-center py-2 px-2 rounded-lg w-full cursor-pointer hover:bg-white hover:bg-opacity-20"
           >
             <img src="/home.svg" className="h-8 w-8 mr-6" />
-            <span className="text-center hidden group-hover:block font-semibold dark:text-white">
+            <span className="text-center hidden group-hover:block font-semibold text-black dark:text-white">
               Home
             </span>
           </a>
@@ -47,7 +47,7 @@ class SideBar extends React.Component<SideBarProps, SideBarState> {
             className="flex items-center py-2 px-2 rounded-lg w-full cursor-pointer hover:bg-white hover:bg-opacity-20"
           >
             <img src="/inventory.svg" className="h-8 w-8 mr-6" />
-            <span className="text-center hidden group-hover:block font-semibold dark:text-white">
+            <span className="text-center hidden group-hover:block font-semibold dark:text-white text-black">
               Inventory
             </span>
           </a>
@@ -56,8 +56,8 @@ class SideBar extends React.Component<SideBarProps, SideBarState> {
             target="_blank"
             className="flex items-center py-2 px-2 rounded-lg w-full cursor-pointer hover:bg-white hover:bg-opacity-20"
           >
-            <img src="/calculator.svg" className="h-8 w-8 mr-6" />
-            <span className="text-center hidden group-hover:block font-semibold dark:text-white">
+            <img src="/calculator.svg" className="h-8 w-8 mr-4" />
+            <span className="text-center hidden group-hover:block font-semibold dark:text-white text-black">
               Calculator
             </span>
           </a>
@@ -67,7 +67,7 @@ class SideBar extends React.Component<SideBarProps, SideBarState> {
             className="flex items-center py-2 px-2 rounded-lg w-full cursor-pointer hover:bg-white hover:bg-opacity-20"
           >
             <img src="/history.svg" className="h-8 w-8 mr-6" />
-            <span className="text-center hidden group-hover:block font-semibold dark:text-white">
+            <span className="text-center hidden group-hover:block font-semibold dark:text-white text-black">
               History
             </span>
           </a>
