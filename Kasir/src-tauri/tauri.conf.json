@@ -54,9 +54,11 @@
     },
     "windows": [
       {
+        "decorations":false,
+        "center":true,
         "fullscreen": false,
         "height": 600,
-        "resizable": true,
+        "resizable": false,
         "title": "Kasir",
         "width": 800
       }
