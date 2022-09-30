@@ -1,0 +1,21 @@
+-- Your SQL goes here
+CREATE TABLE user (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR NOT NULL,
+  pass VARCHAR NOT NULL,
+  previlage BOOLEAN NOT NULL DEFAULT FALSE
+);
+CREATE TABLE inventory (
+  id SERIAL PRIMARY KEY,
+  produk VARCHAR NOT NULL,
+  price INT NOT NULL,
+  stock INT NOT NULL,
+  
+);
+CREATE TABLE history (
+  id SERIAL PRIMARY KEY,
+  username VARCHAR NOT NULL,
+  pass TEXT NOT NULL,
+  previlage BOOLEAN NOT NULL DEFAULT FALSE
+);
+
