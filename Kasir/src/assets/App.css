@@ -12,7 +12,9 @@
   animation: rootate 2s infinite linear;
 }
 .tauri {
-  animation: rootate 3s infinite linear;
+  transform: rotate(60deg);
+  width: 10rem;
+  height: 5rem;
 }
 
 :root {
@@ -50,6 +52,7 @@
 .row {
   display: flex;
   justify-content: center;
+  gap: 3rem;
 }
 
 a {
@@ -120,4 +123,25 @@ button {
   to {
     transform: rotate(360deg);
   }
+}
+.titlebar {
+  height: 30px;
+  background: transparent;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+.titlebar-button:hover {
+  background: #5bbec3;
 }
