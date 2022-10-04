@@ -5,7 +5,6 @@ import Inventory from "./component/Inventory";
 import Calculator from "./component/Calculator";
 import History from "./component/History";
 import Title from "./component/title";
-import { Style } from "util";
 
 interface PageProps {}
 
@@ -63,6 +62,7 @@ class Page extends React.Component<PageProps, PageState> {
       front: <Calculator />,
       styles: [this.styleN, this.styleN, this.styleH, this.styleN],
     });
+    window.print();
   };
 }
 
